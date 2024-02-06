@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte bonita */
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    background-image: url('/imagem/raiden.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo da caixa */
+    border-radius: 20px; /* Borda arredondada */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    font-size: 24px; /* Tamanho maior para o título */
+    color: #343a40; /* Cor do texto */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; /* Cor da borda */
+}
+
+thead th {
+    background-color: #007bff; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto do cabeçalho */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Cor de fundo das linhas pares */
+}
+
+.editar-btn, .excluir-btn, .voltar-btn {
+    padding: 8px 12px;
+    margin-right: 5px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editar-btn:hover, .excluir-btn:hover, .voltar-btn:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}

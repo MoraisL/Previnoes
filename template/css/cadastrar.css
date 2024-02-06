@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte bonita */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    background-image: url('/imagem/raiden.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 400px; /* Largura da caixa */
+    padding: 40px;
+    background-color: #ffffff; /* Cor de fundo da caixa */
+    border-radius: 20px; /* Borda arredondada */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px; /* Tamanho maior para o título */
+    color: #343a40; /* Cor do texto */
+    margin-bottom: 20px;
+}
+
+.cadastro-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ced4da; /* Borda suave */
+}
+
+.cadastro-form label {
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.cadastro-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cadastro-form button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.cadastro-form p {
+    font-size: 14px;
+}
